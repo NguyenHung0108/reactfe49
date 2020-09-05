@@ -1,13 +1,59 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.title {
+background-color: rgb(87, 71, 71);
+}
+
+
+.matKinh {
+  position: relative;
+}
+
+.kinh_item {
+  position: absolute;
+  display: block;
+  text-align: center;
+  bottom: 59%;
+  left: 24%;
+  width: 52%;
+  z-index: 2;
+  opacity: .7;
+}
+.kinh_info {
+  position: absolute;
+  bottom: 0px;
+  width: 89%;
+  height: 32%;
+  background-color: rgb(255, 165, 0.1);
+  opacity: .7;
+  text-align: left;
+  padding-left: 10px;
+}
+.kinh_info p {
+  color: white;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.kinh_info h4 {
+  font-weight: 600;
+  color: #1b2bda;
+  margin-bottom: 5px;
+}
+.anhKinh {
+  cursor: pointer;
+  border: 2px solid rgb(51, 51, 189);
+  padding: 6px;
+  border-radius: 3%;
+}
+.title {
+  opacity: .7;
 }
