@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'pony';
+    src: url('./Pony.ttf');
+}
+.oanTuTi {
+    background-image: url('./bgGame.png');
+    background-size: cover;
+    font-family: 'pony';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.speech-bubble {
+	position: relative;
+	background: #45D994;
+	border-radius: .4em;
+	
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-top-color: #45D994;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -17.5px;
+	margin-bottom: -35px;
+}
+.choice {
+    width: 80px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 10px;
+}
+.choice:hover {
+    border: 6px solid #f19010;
+}

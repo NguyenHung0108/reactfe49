@@ -1,0 +1,1 @@
+export const   QUAN_LY_SINH_VIEN = 'QUAN_LY_SINH_VIEN';
